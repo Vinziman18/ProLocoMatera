@@ -1,0 +1,444 @@
+/*Adattamenti schemi smartphone*/
+@media screen and (max-width: 1400px) {
+
+  header h1{
+
+    font-size:30px !important;
+    width:100%;
+
+  }
+  
+  header nav ul{
+      
+    gap: 35px;
+    margin-top:10px;
+  }
+  
+    header nav a:hover {
+
+  font-size: 16px;
+  background-image:none;
+
+}
+}
+
+@media screen and (max-width: 1000px){
+    
+    header h1{
+
+    font-size:30px !important;
+    width:100%;
+
+  }
+    
+    header nav ul{
+      
+    gap: 5px;
+    margin-top:8px;
+    font-size:15px;
+    
+  }
+  header nav a:hover {
+
+  font-size: 16px;
+  background-image:none;
+
+}
+    
+#immagini-sinistra, #immagini-destra{
+
+    display: none;
+
+  }
+  
+  .form-contatti{
+    
+    width:35%;
+    right:5%;
+    margin-top:20px;
+
+}
+  
+  .g-maps{
+      
+      width:400px;
+      height:400px;
+      top:25px;
+      margin-left:5px;
+      
+  }
+  footer{
+      
+      padding-bottom:30px;
+      
+  }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+  /*Generali*/
+  
+  header{
+
+    height: 130px;
+
+  }
+
+  header h1{
+
+    width: 100%;
+    font-size: 25px !important;
+    margin: 0;
+
+  }
+  
+  .social{
+    width:68%;
+  }
+
+  #immagini-sinistra, #immagini-destra{
+
+    display: none;
+
+  }
+
+  header nav ul{
+
+    font-size: 8px;
+    gap: 13px;
+    margin: 0 5px;
+
+  }
+
+  header nav a {
+
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  margin:auto;
+
+}
+
+  header nav a:hover{
+
+    font-size: 10px;
+    background-image: none;
+
+  }
+
+  #centro-sito{
+
+    margin:auto !important;
+    margin-top:15px !important;
+    width:80%;
+    
+
+  }
+
+  #centro-sito h2{
+
+    font-size: 15px;
+    padding-bottom: 5px;
+
+  }
+  
+  main {
+
+    display: block;
+
+  }
+  
+  footer{
+
+    font-size: 8px;
+    height:910px;
+    padding-bottom:0;
+
+  }
+ 
+  header #menu{
+
+    font-size: 9px;
+    width: 100%;
+    margin: 0;
+
+  }
+  
+  .under-social img {
+      
+    left:0;
+    width:40%;
+  
+  }
+  
+  /*Pagina Chi Siamo*/
+  
+  .slideshow-container p{
+      margin-top:5px;
+      font-size:11px;
+      
+  }
+  
+  .slideshow-container img{
+      
+      width:90%;
+  }
+
+  .sx-contenitore{
+      
+      width:10%;
+      
+  }
+  
+  .dx-contenitore{
+      
+      width:10%;
+      
+  }
+  
+  .centro-contenitore{
+      
+      width:80%;
+  }
+  
+  .dx-contenitore img, .sx-contenitore img{
+      
+     border-radius:5px;
+     margin: auto;
+     
+  }
+  
+  /*Pagina Territorio*/
+  /*Sezione Locandine*/
+  
+  #third{
+
+    width: 80%;
+    margin-top:5px;
+
+  }
+  
+  #third h2{
+      
+      font-size:22px;
+      
+  }
+  
+  .sub-third{
+
+    margin-top:10px;
+    margin-left:0;
+    margin:auto;
+  }
+  
+  .sub-third img{
+      margin-bottom:5px;
+  }
+  
+  /*Sezione Trasporti*/
+
+  #travel{
+
+    width: 80%;
+    font-size: 12px;
+    right: 0;
+    top:20px;
+    bottom:5px;
+
+  }
+
+  #travel h2{
+
+    margin-top: 0px;
+    font-size:23px;
+    
+
+  }
+
+  #travel .attenzione, #third .attenzione{
+
+  width: 10%;
+
+  }
+
+  .mezzi{
+
+    display: flex;
+    height: 100px;
+
+  }
+  
+  .sub-mezzi{
+      margin-top: 5px;
+  }
+
+  .sub-mezzi img{
+
+    width: 60%;
+    height: 60px;
+
+  }
+  
+  /*Pagina Attività*/
+
+  .scheda p{
+      
+      padding-left:0;
+      
+  }
+  
+  .scheda span{
+      
+      font-size:12px;
+      
+  }
+  
+  .scheda img{
+    
+    display:none;
+
+  }
+  
+  #contatti p{
+      
+      font-size:20px;
+      
+  }
+  
+  .info{
+      
+      width:97%;
+      margin:0;
+      margin-top:5px;
+      
+  }
+  
+  .under-info{
+      
+      text-align:center !important;
+      font-size:16px !important;
+      
+  }
+  
+  .ritorno p{
+      
+      position:relative;
+      font-size:9px !important;
+      
+  }
+  
+  .g-maps{
+      
+      width:80%;
+      height:300px;
+      margin-left:10%;
+      float:none;
+      opacity:1;
+      
+  }
+  
+  .form-contatti{
+      top:50px;
+      width:70%;
+      right:0;
+      margin:auto;
+      float:none;
+  }
+  
+  .form-contatti p{
+      
+      font-size:20px;
+      margin-top:-15px;
+      
+  }
+  
+  .button{
+      
+      font-size:14px;
+      margin: 5px 0 15px 0;
+      
+  }
+  
+  .social{
+      
+      position:relative;
+      left:0;
+      top:805px !important;
+      width:100%;
+      
+  }
+  
+}
+
+
+
+
+  /*
+  .dx-contenitore img, .sx-contenitore img{
+      
+     border-radius:5px;
+  }
+  
+  .scheda{
+      margin:17px;
+  }
+  .scheda img{
+    width: 13%;
+    display:none;
+
+  }
+  header #menu{
+
+        font-size: 10px;
+        width: 100%;
+        margin: 0;
+
+    }
+  
+}
+
+@media screen and (max-width:1360px) {
+
+  #immagini-sinistra, #immagini-destra{
+
+    display: none;
+
+  }
+  
+}
+
+@media screen and (max-width:1400px){
+
+     header h1{
+
+        font-size: 20px;
+        width: 100%;
+
+    }
+
+    #immagini-sinistra, #immagini-destra{
+
+        display: none;
+
+    } 
+
+    header #menu{
+
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    header nav a:hover{
+
+    font-size: 13px;
+    background-image: none;
+
+  }
+
+
+
+    
+}*/

@@ -1,0 +1,135 @@
+    
+    #centro-attività{
+
+      display: block;
+      width: 98%;
+      font-weight: bold;
+      margin: auto;
+
+    }
+    
+    #centro-attività ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-radius: .5rem;
+      display: block;
+      
+    }
+
+    /*#centro-attività li {
+      border-bottom: 2px solid #F0E6A9;
+      border-radius: 8px;
+    }*/
+
+    #centro-attività ul li details ul{
+
+      background-color: #DABA4B;
+      border-radius: 0 0 15px 15px;
+      box-shadow: 0 0 2px #F0E6A9;
+      display:flex;
+
+    }
+
+    #centro-attività a{
+      color: #e6eef6;
+      text-decoration: none;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    summary {
+      display: block;
+      padding: .75rem 1rem;
+      color: #e6eef6;
+      text-decoration: none;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 2px solid #F0E6A9;
+      border-radius: 8px;
+    }
+    
+
+    summary:hover {
+      background: rgba(255,255,255,0.05);
+    }
+
+    summary::-webkit-details-marker {
+      display: none; /* rimuove il triangolo di default */
+    }
+
+    details ul {
+      margin: 0;
+      padding: .3rem 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: block;
+      flex-direction: column;
+      height: auto;
+      overflow: hidden;
+    }
+
+
+    summary .logo-attività{
+
+      width: 100px;
+      position: relative;
+      border-radius: 8px;
+      top:15px;
+      left: 30px;
+
+    }
+
+    .scheda{
+
+      font-weight: normal;
+      user-select: none;
+      position:relative;
+      margin:5px;
+      border-radius:15px;
+      border:white 2px solid;
+
+    }
+
+    .scheda p{
+
+      color: #00A5E7;
+      text-shadow: 0 0 1px #fff;
+      font-weight: bold;
+      position:relative;
+      float:left;
+
+    }
+
+    .scheda img{
+
+      width: 100px;
+      height: 100px;
+      border-radius: 18px;
+      box-shadow: 0 0 2px #000;
+      position:relative;
+      float: left;
+      margin:4px;
+      
+    }
+
+
+    /* Animazione apertura */
+    details[open] ul {
+      animation: slideDown .25s ease-out;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Icona freccia */
+
+    summary svg {
+      transition: transform .25s ease;
+      float: right;
+    }
+
+    details[open] summary svg {
+      transform: rotate(180deg);
+    }
